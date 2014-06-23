@@ -1,0 +1,659 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title> Pllava H4Ck3rS  </title>
+<link rel="shortcut icon" href="http://hellox.persiangig.com/DefacePage/flash000.png">
+<style type="text/css">body, a, a:hover {cursor: url(http://hellox.persiangig.com/DefacePage/negro.cur), progress;}</style>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://hellox.persiangig.com/DefacePage/jquery00.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://hellox.persiangig.com/DefacePage/prettyPh.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://hellox.persiangig.com/DefacePage/style000.css" media="all">
+
+
+<script language=JavaScript>
+ 
+var message="| Pllava H4ck3rs | -+=Hacked=+-";
+ 
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+ 
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+ 
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+ 
+document.oncontextmenu=new Function("alert(message);return false")
+ 
+</script>
+<script type="text/javascript">
+
+/***********************************************
+* Disable Text Selection script- ? Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+function disableSelection(target){
+if (typeof target.onselectstart!="undefined") //For IE 
+    target.onselectstart=function(){return false}
+else if (typeof target.style.MozUserSelect!="undefined") //For Firefox
+    target.style.MozUserSelect="none"
+else //All other route (For Opera)
+    target.onmousedown=function(){return false}
+target.style.cursor = "default"
+}
+
+window.onload=function(){disableSelection(document.body);}
+ </script>
+</head>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery-1.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/cufon-yu.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/Yanone_K.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery00.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery01.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery02.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery03.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery04.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery05.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery06.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/jquery07.js"></script>
+<script type="text/javascript" src="http://hellox.persiangig.com/DefacePage/custom00.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20402842-6']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src ='http://hellox.persiangig.com/DefacePage/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script><script language="JavaScript" type="text/javascript">
+mensaje = '*<--Hacked by Pllava H4Ck3Rs -->*';font = 'arial';size = 2.5;color = '#00FF00';velocidad = 0.6;
+n4 = (document.layers);ie = (document.all);n6 = (document.getElementById);
+mensaje = mensaje.split('');n = mensaje.length;
+a = size*10;ymouse = 0;xmouse = 0;props = "<font face="+font+" color="+color+" size="+size+">";
+if (n4){for ( i = 0; i < n; i++)document.write('<layer left="0" top="0" width="+a+" name="n4mensaje'+i+'" height="+a+"><center>'+props+mensaje[i]+'</font></center></layer>');}else if (ie){document.write('<div id="padre" style="position:absolute;top:0px;left:0px"><div style="position:relative">');for (i=0; i < n; i++)document.write('<div id="iemensaje" style="position:absolute;top:0px;left:0;height:'+a+';width:'+a+';text-align:center">'+props+mensaje[i]+'</font></div>');document.write('</div></div>');}else if (n6){document.write('<div id="padre" style="position:absolute;top:0px;left:0px"><div style="position:relative">');for (i = 0; i < n; i++)document.write('<div id="iemensaje'+i+'" style="position:absolute;top:0px;left:0;height:'+a+';width:'+a+';text-align:center">'+props+mensaje[i]+'</font></div>');document.write('</div></div>');}
+if(n4)window.captureEvents(Event.MOUSEMOVE);
+function Mouse(evento){ if(ie){xmouse = event.x+20;ymouse = event.y+20;}else if(n4 || n6){xmouse = evento.pageX+20;ymouse = evento.pageY+20;}}
+if(n4)window.onMouseMove = Mouseelse if(ie || n6)document.onmousemove = Mouse;
+y = new Array();x = new Array();Y = new Array();X = new Array();Yaux = new Array();Xaux = new Array();
+for (i=0; i < n; i++){y[i] = 0;x[i] = 0;Y[i] = 0;X[i] = 0;Yaux[i] = 0;Xaux[i] = 0;}
+function asigna(){if (ie)padre.style.top = document.body.scrollTop;
+for (i = 0; i < n; i++){if(n4){document.layers['n4mensaje'+i].top = y[i];document.layers['n4mensaje'+i].left = x[i]+(i*(a/2));}else if(ie){iemensaje[i].style.top = y[i];iemensaje[i].style.left = x[i]+(i*(a/2));}else if(n6){eval("document.getElementById('iemensaje"+i+"').style.top = '"+y[i]+"px'");eval("document.getElementById('iemensaje"+i+"').style.left = '"+(x[i]+(i*(a/2)))+"px'");} }}
+function ondula(){y[0]=Math.round(Y[0] +=((ymouse)-Y[0])*velocidad);x[0]=Math.round(X[0] +=((xmouse)-X[0])*velocidad);
+for (var i = 1; i < n; i++){Yaux[i] = Math.round(Y[i]);Xaux[i ]= Math.round(X[i]);y[i] = Math.round(Y[i]=Yaux[i]+(y[i-1]-Y[i])*velocidad);x[i] = Math.round(X[i]=Xaux[i]+(x[i-1]-X[i])*velocidad);}asigna();setTimeout('ondula()',50);}
+window.onload = ondula;
+</script>
+</head>
+
+<body>
+    <!-- wrappage begin here -->
+    <div id="wrappage">
+        <!-- container begin here -->
+        <div class="container">
+            <!-- top block begin here -->
+			 <div class="top">
+             <div class="energy"></div>
+                <div class="top-block">
+                    <a class="logo"> Hacked By : Pllava H4ck3rs.. </a>
+                    <div class="bg-e-button"></div>
+                     <a href class="open"><img src="/" alt=""></a>
+                    </div>
+            </div>
+            <!-- top block end here -->
+            <!-- center block begin here -->
+            <div class="center-block">
+             <!-- &#199;&#211;&#732;&#228;&#209; -->
+             <div class="scanner clearfix">
+              <div class="scanner-block">
+               <div class="scanner-box left">
+                <div class="scanner-line"></div>
+               </div>
+               <ul class="data left">
+                <li class="search"> Loading Data ....... </li>
+               </ul>
+			   </div>
+             </div>
+                <!-- &#200;&#206;&#212; &#199;&#213;&#225;&#237; -->
+                <div class="main">
+                 <div class="load"></div>
+                 <div class="shut-left"></div>
+                 <div class="shut-right"></div>
+                  <div class="page">
+                    <div class="box-left left">
+                     <div class="info">
+                       <ul class="socicon left">
+					   <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/1380135_1414894355395509_960975025_n.jpg" width="100%" alt="XDracoDefacer" class="right"></br></br>
+                       <li><a href="https://www.facebook.com/pages/Hackers-World/1414892895395655/" <img src="http://hellox.persiangig.com/DefacePage/facebook.png" alt=""></a></li>
+                       </ul>
+                       <ul class="left who">
+                       <li><center><font color="gold">  Hey Admin  We Are Here <br /></font></center></li>
+					   </ul>
+					   <center>
+<object data="http://flash-mp3-player.net/medias/player_mp3.swf" width="0" height="0" type="application/x-shockwave-flash">
+
+<param value="#ffffff" name="bgcolor"><br />
+<param 
+
+value="mp3=http://xover3.jkt.3d.x.indowebster.com/download/57/zgeh36jeg19v7wd4flnnlfpvzi61m60e.mp3&loop=1&autoplay=1&volume
+
+=125" name="FlashVars">
+</object>
+
+
+                       </div>
+                        <ul id="menu" class="right">
+                            <li>
+                              <a href="#msg" class="selected"> Message </a>
+							  <a href="#sysinfo" class="selected"> System Info </a>
+							  <a href="#about" class="selected"> About Us </a>
+							  <a href="#Greets" class="selected"> Greets </a>
+                            </li>
+                          </ul>
+                    </div>
+		    
+
+			<div class="cont left">
+			<!-- &#227;&#228;&#230;&#229;&#199; -->
+			     <br>
+<center>
+<p align="center">
+
+      <html><head>
+
+<script>
+function addRow(name, url, isdir, size, date_modified) {
+  if (name == ".")
+    return;
+
+  var root = "" + document.location;
+  if (root.substr(-1) !== "/")
+    root += "/";
+
+  var table = document.getElementById("table");
+  var row = document.createElement("tr");
+  var file_cell = document.createElement("td");
+  var link = document.createElement("a");
+
+  link.className = isdir ? "icon dir" : "icon file";
+
+  if (name == "..") {
+    link.href = root + "..";
+    link.innerText = document.getElementById("parentDirText").innerText;
+    link.className = "icon up";
+    size = "";
+    date_modified = "";
+  } else {
+    if (isdir) {
+      name = name + "/";
+      url = url + "/";
+      size = "";
+    } else {
+      link.draggable = "true";
+      link.addEventListener("dragstart", onDragStart, false);
+    }
+    link.innerText = name;
+    link.href = root + url;
+  }
+  file_cell.appendChild(link);
+
+  row.appendChild(file_cell);
+  row.appendChild(createCell(size));
+  row.appendChild(createCell(date_modified));
+
+  table.appendChild(row);
+}
+
+function onDragStart(e) {
+  var el = e.srcElement;
+  var name = el.innerText.replace(":", "");
+  var download_url_data = "application/octet-stream:" + name + ":" + el.href;
+  e.dataTransfer.setData("DownloadURL", download_url_data);
+  e.dataTransfer.effectAllowed = "copy";
+}
+
+function createCell(text) {
+  var cell = document.createElement("td");
+  cell.setAttribute("class", "detailsColumn");
+  cell.innerText = text;
+  return cell;
+}
+
+function start(location) {
+  var header = document.getElementById("header");
+  header.innerText = header.innerText.replace("LOCATION", location);
+
+  document.getElementById("title").innerText = header.innerText;
+}
+
+function onListingParsingError() {
+  var box = document.getElementById("listingParsingErrorBox");
+  box.innerHTML = box.innerHTML.replace("LOCATION", encodeURI(document.location)
+      + "?raw");
+  box.style.display = "block";
+}
+</script>
+
+<style>
+
+  h1 {
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  tr.header {
+    font-weight: bold;
+  }
+
+  td.detailsColumn {
+    padding-left: 2em;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  a.icon {
+    padding-left: 1.5em;
+    text-decoration: none;
+  }
+
+  a.icon:hover {
+    text-decoration: underline;
+  }
+
+  a.file {
+    background : url('http://i44.tinypic.com/a5kfg3.jpg') no-repeat left top;
+  }
+
+  a.dir {
+    background : url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAd5JREFUeNqMU79rFUEQ/vbuodFEEkzAImBpkUabFP4ldpaJhZXYm/RiZWsv/hkWFglBUyTIgyAIIfgIRjHv3r39MePM7N3LcbxAFvZ2b2bn22/mm3XMjF+HL3YW7q28YSIw8mBKoBihhhgCsoORot9d3/ywg3YowMXwNde/PzGnk2vn6PitrT+/PGeNaecg4+qNY3D43vy16A5wDDd4Aqg/ngmrjl/GoN0U5V1QquHQG3q+TPDVhVwyBffcmQGJmSVfyZk7R3SngI4JKfwDJ2+05zIg8gbiereTZRHhJ5KCMOwDFLjhoBTn2g0ghagfKeIYJDPFyibJVBtTREwq60SpYvh5++PpwatHsxSm9QRLSQpEVSd7/TYJUb49TX7gztpjjEffnoVw66+Ytovs14Yp7HaKmUXeX9rKUoMoLNW3srqI5fWn8JejrVkK0QcrkFLOgS39yoKUQe292WJ1guUHG8K2o8K00oO1BTvXoW4yasclUTgZYJY9aFNfAThX5CZRmczAV52oAPoupHhWRIUUAOoyUIlYVaAa/VbLbyiZUiyFbjQFNwiZQSGl4IDy9sO5Wrty0QLKhdZPxmgGcDo8ejn+c/6eiK9poz15Kw7Dr/vN/z6W7q++091/AQYA5mZ8GYJ9K0AAAAAASUVORK5CYII=') no-repeat left top;
+  }
+
+  a.up {
+    background : url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmlJREFUeNpsU0toU0EUPfPysx/tTxuDH9SCWhUDooIbd7oRUUTMouqi2iIoCO6lceHWhegy4EJFinWjrlQUpVm0IIoFpVDEIthm0dpikpf3ZuZ6Z94nrXhhMjM3c8895977BBHB2PznK8WPtDgyWH5q77cPH8PpdXuhpQT4ifR9u5sfJb1bmw6VivahATDrxcRZ2njfoaMv+2j7mLDn93MPiNRMvGbL18L9IpF8h9/TN+EYkMffSiOXJ5+hkD+PdqcLpICWHOHc2CC+LEyA/K+cKQMnlQHJX8wqYG3MAJy88Wa4OLDvEqAEOpJd0LxHIMdHBziowSwVlF8D6QaicK01krw/JynwcKoEwZczewroTvZirlKJs5CqQ5CG8pb57FnJUA0LYCXMX5fibd+p8LWDDemcPZbzQyjvH+Ki1TlIciElA7ghwLKV4kRZstt2sANWRjYTAGzuP2hXZFpJ/GsxgGJ0ox1aoFWsDXyyxqCs26+ydmagFN/rRjymJ1898bzGzmQE0HCZpmk5A0RFIv8Pn0WYPsiu6t/Rsj6PauVTwffTSzGAGZhUG2F06hEc9ibS7OPMNp6ErYFlKavo7MkhmTqCxZ/jwzGA9Hx82H2BZSw1NTN9Gx8ycHkajU/7M+jInsDC7DiaEmo1bNl1AMr9ASFgqVu9MCTIzoGUimXVAnnaN0PdBBDCCYbEtMk6wkpQwIG0sn0PQIUF4GsTwLSIFKNqF6DVrQq+IWVrQDxAYQC/1SsYOI4pOxKZrfifiUSbDUisif7XlpGIPufXd/uvdvZm760M0no1FZcnrzUdjw7au3vu/BVgAFLXeuTxhTXVAAAAAElFTkSuQmCC') no-repeat left top;
+  }
+
+  #listingParsingErrorBox {
+    border: 1px solid black;
+    background: #fae691;
+    padding: 10px;
+    display: none;
+  }
+</style>
+
+<title id="title">CEH</title>
+
+</head>
+
+<body>
+<style type="text/css">
+body
+{
+font-family: "courier new";
+background-color: white;
+font-size:80%;
+color: #F50404;
+background-image: url("http://i44.tinypic.com/a5kfg3.jpg");
+}
+.xBody
+{
+width:1600px;
+height:1600px;
+position:absolute;
+z-index: 12;
+}
+.ssh
+{
+display:none;
+z-index: 14;
+}
+.sshBox
+{
+height:350px;
+border: 7px solid white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10x;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	z-index: 15;
+}
+.sshHead
+{
+margin-bottom: 8px;
+color:black;
+font-weight: bold;
+background-color: black;
+height:25px;
+z-index: 12;
+}
+.greenBox
+{
+padding-left: 5px;
+position: absolute;
+height:30px;
+border: 2px solid #28FE14;
+z-index: 10;
+}
+.picz
+{
+position: absolute;
+width:600px;
+height:200%;
+display:none;
+right:2px;
+top:2px;
+}
+</style>
+
+
+
+<span id="parentDirText" style="display:none" i18n-content="parentDirText">Parent Directory</span><font style="tahoma" color="black" class="a">
+
+<h1 id="header" i18n-content="header">   
+<SCRIPT>
+farbbibliothek = new Array(); 
+farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100"); 
+farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00"); 
+farbbibliothek[2] = new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00"); 
+farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+farbbibliothek[4] = new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA0000","#990000","#880000","#770000","#660000","#550000","#440000","#330000","#220000","#110000","#000000","#110000","#220000","#330000","#440000","#550000","#660000","#770000","#880000","#990000","#AA0000","#BB0000","#CC0000","#DD0000","#EE0000"); 
+farbbibliothek[5] = new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF"); 
+farbbibliothek[6] = new Array("#0000FF","#FFFF00"); 
+farben = farbbibliothek[4];
+function farbschrift() 
+{ 
+for(var i=0 ; i<Buchstabe.length; i++) 
+{ 
+document.all["a"+i].style.color=farben[i]; 
+} 
+farbverlauf(); 
+} 
+function string2array(text) 
+{ 
+Buchstabe = new Array(); 
+while(farben.length<text.length) 
+{ 
+farben = farben.concat(farben); 
+} 
+k=0; 
+while(k<=text.length) 
+{ 
+Buchstabe[k] = text.charAt(k); 
+k++; 
+} 
+} 
+function divserzeugen() 
+{ 
+for(var i=0 ; i<Buchstabe.length; i++) 
+{ 
+document.write("<span id='a"+i+"' class='a"+i+"'>"+Buchstabe[i] + "</span>"); 
+} 
+farbschrift(); 
+} 
+var a=1; 
+function farbverlauf() 
+{ 
+for(var i=0 ; i<farben.length; i++) 
+{ 
+farben[i-1]=farben[i]; 
+} 
+farben[farben.length-1]=farben[-1]; 
+
+setTimeout("farbschrift()",30); 
+} 
+// Zu Demonstrationszwecken***************** 
+var farbsatz=1; 
+function farbtauscher() 
+{ 
+farben = farbbibliothek[farbsatz]; 
+while(farben.length<text.length) 
+{ 
+farben = farben.concat(farben); 
+} 
+farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
+} 
+setInterval("farbtauscher()",5000); 
+text= "Pllava H4ck3rs"; //h 
+string2array(text); 
+divserzeugen(); 
+//document.write(text); 
+      </SCRIPT></font></h1>
+	  
+
+<table id="table">
+  
+    <td i18n-content="headerName" color="black">[ FaceBooK ]</td>
+    <td class="detailsColumn" i18n-content="headerSize" color="black">[ Oopss !! ]</td>
+    <td class="detailsColumn" i18n-content="headerDateModified" color="black">[ YaHoOooo!!! ]</td>
+  </tr>
+</tbody><font color="green"><tbody><tr><td><a class="X" href="https://www.facebook.com/pages/Hackers-World/1414892895395655//"></a></td><tr><td>
+		<a href="https://www.facebook.com/pllavahackers">
+		Pllava H4ck3rs</a></td><td class="detailsColumn">[==========]</td><td class="detailsColumn">Admin</td></tr><tr><td><a class="icon dir" href="https://www.facebook.com/pllavahackers</a></td><td class="detailsColumn"></td><td class="detailsColumn">
+			Pllava H4ck3rs&nbsp; </td></tr><tr><td>
+			<span style="background-repeat: no-repeat; background-position: left top">
+			<a href="https://www.facebook.com/pllavahackers">
+			Pllava H4ck3rs</a></span></td><td class="detailsColumn"></td><td class="detailsColumn">Moderator Admin</td></tr><tr><td>
+			<a href="https://www.facebook.com/pllavahackers">
+			Pllava H4ck3rs</a></td><td class="detailsColumn"></td><td class="detailsColumn">Pllava H4Ck3rS</td></tr><tr><td>
+			<a href="https://www.facebook.com/pllavahackers">
+			Pllava H4ck3rs</a></td><td class="detailsColumn"></td><td class="detailsColumn">Pllava H4Ck3rS</td></tr><tr><td>
+			<span style="background-repeat: no-repeat; background-position: left top">
+			<a href="https://www.facebook.com/pllavahackers">
+			Pllava H4ck3rs</a></span></td><td class="detailsColumn"></td><td class="detailsColumn">Pllava H4Ck3rS</td></tr><tr><td>
+			<span style="background-repeat: no-repeat; background-position: left top">
+			<a href="https://www.facebook.com/pllavahackers">
+			Pllava H4ck3rs</a></span></td><td class="detailsColumn"></td><td class="detailsColumn">Contact</td></tr></tbody></table><hr></font>
+
+
+
+
+<script>var templateData = {"header":"Index of LOCATION","headerDateModified":"GROUP","headerName":"NAME","headerSize":"ATTACKER","listingParsingErrorBoxText":"Oh, no! This server is sending data Opera can't understand. Please \u003Ca href=\"http://code.google.com/p/chromium/issues/entry\"\u003Ereport a bug\u003C/a\u003E, and include the \u003Ca href=\"https://www.facebook.com/pages/Hackers-World/1414892895395655//\"\u003Eraw listing\u003C/a\u003E.","parentDirText":"Parent Directory"};</script><script>// Copyright (c) 2010 The Chromium Authors. All rights reserved.
+
+var i18nTemplate = (function() {
+
+  var handlers = {
+
+    'i18n-content': function(element, attributeValue, obj) {
+      element.textContent = obj[attributeValue];
+    },
+
+
+    'i18n-options': function(element, attributeValue, obj) {
+      var options = obj[attributeValue];
+      options.forEach(function(values) {
+        var option = typeof values == 'string' ? new Option(values) :
+            new Option(values[1], values[0]);
+        element.appendChild(option);
+      });
+    },
+
+
+    'i18n-values': function(element, attributeValue, obj) {
+      var parts = attributeValue.replace(/\s/g, '').split(/;/);
+      for (var j = 0; j < parts.length; j++) {
+        var a = parts[j].match(/^([^:]+):(.+)$/);
+        if (a) {
+          var propName = a[1];
+          var propExpr = a[2];
+
+          if (propExpr in obj) {
+            var value = obj[propExpr];
+            if (propName.charAt(0) == '.') {
+              var path = propName.slice(1).split('.');
+              var object = element;
+              while (object && path.length > 1) {
+                object = object[path.shift()];
+              }
+              if (object) {
+                object[path] = value;
+               
+                if (path == 'innerHTML') {
+                  process(element, obj);
+                }
+              }
+            } else {
+              element.setAttribute(propName, value);
+            }
+          } else {
+            console.warn('i18n-values: Missing value for "' + propExpr + '"');
+          }
+        }
+      }
+    }
+  };
+
+  var attributeNames = [];
+  for (var key in handlers) {
+    attributeNames.push(key);
+  }
+  var selector = '[' + attributeNames.join('],[') + ']';
+
+ 
+  function process(node, obj) {
+    var elements = node.querySelectorAll(selector);
+    for (var element, i = 0; element = elements[i]; i++) {
+      for (var j = 0; j < attributeNames.length; j++) {
+        var name = attributeNames[j];
+        var att = element.getAttribute(name);
+        if (att != null) {
+          handlers[name](element, att, obj);
+        }
+      }
+    }
+  }
+
+  return {
+    process: process
+  };
+})();
+</script><script>
+i18nTemplate.process(document, templateData);
+
+
+
+
+
+
+
+
+
+
+</body></html></script></body></html>
+</font>
+</center>
+			    <div id="msg" class="box left">
+					<div class="box-content">
+
+					
+
+					<h3>Pllava H4Ck3rS</h3>
+					<font color="#42413E"> YOUR SITE HAS BEEN HACKED </font>
+					
+
+
+					<p>=====================================================================</p>
+					
+					<strong><center><font color="red"> Message for Admin : </font></center></strong>
+					<strong><font color="gold"> Sorry Admin , Your Site Has Been Hacked System Is Low Please Patch Your System This Is Just A Warning If You Still Didn't Make a Protection of Your Server We Will Keep On Hacking it. </font></strong></p>
+					<p>=====================================================================</p>
+					<a href="https://www.facebook.com/pllavahackers"> Find Us Here </a>
+					</div>
+                </div>
+				
+				
+                <div id="sysinfo" class="box left">
+					<div class="box-content">
+					<h3><font color="red"> System Info </font></h3>
+					<p class="sub"><font color="#42413E"> Server Down </font></p>
+					
+					<strong><font color="gold"> System Is Low , Please Patch Your System </font></strong></br>
+					
+					</div>
+                </div>
+				
+				
+				<div id="about" class="box left">
+					<div class="box-content">
+					<center><h3><font color="red"> About Hacker's World </font></h3>
+					<p class="sub"><font color="gold"> You can't stop us.</font></p>
+					
+					<strong><font color="red"> Defaced By : </font></strong></br>
+					<p><strong><font color="#FFD700">Pllava H4ck3rs</font></strong></p>
+					
+					<strong><font color="red"> Pllava H4Ck3rS (Hacker's World) : </font></strong></br>
+					<p><strong><font color="gold"> We Are The Power of the Truth And Unity </font></strong></p>
+					
+					<strong><font color="red"> Thanks To :</font></strong></br>
+					<p><strong><font color="gold"> Thanks to kTelent'h4ck3r</font></strong></p>
+					
+
+								
+					</div>
+               </div>
+				<div id="Greets" class="box left">
+					<div class="box-content">
+<center>
+
+<font size="3" color="red" class="a"><blink>GREETZ:</blink></font><font style="tahoma" color="red" size="2" class="a">
+<marquee  behavior="scroll" direction="left" color="white">||All Muslims HAckers|| All Albania Hackers ||kTelent'h4ck3r|| \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\......</marquee>
+<marquee  behavior="scroll" direction="right" color="white">....../../../../../../../../../../../../../../../../../../../../../../../../../../../ || Jawad|| Mad Ahsan || Pak cyber Experts || Pak Cyber Mafia || And All </marquee><br>
+
+</center>
+								
+					</div>
+               </div>
+				
+				
+
+				
+ 
+                <div id="irc" class="box left">
+                            <div class="box-content">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-block">
+                    <h1 class="left">Pllava H4Ck3rS</h1>
+                    <h5 class="right"> Script Code by kTalent'h4Ck3r :3 <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+<center>
+<embed src="http://syriab-bd.hak.su/TiGER.swf" width="1" height="1" allowscriptaccess="always"></embed></center>
+</iframe>
+</center>
+</body>
+</html>
